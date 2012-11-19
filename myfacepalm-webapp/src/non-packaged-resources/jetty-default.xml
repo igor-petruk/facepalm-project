@@ -4,7 +4,7 @@
 <Configure class="org.eclipse.jetty.webapp.WebAppContext">
     <New id="FacepalmMySQL" class="org.eclipse.jetty.plus.jndi.Resource">
         <Arg></Arg>
-        <Arg>jdbc/FacepalmMySQL</Arg>
+        <Arg>jdbc/FacepalmDS</Arg>
         <Arg>
             <New class="com.mchange.v2.c3p0.ComboPooledDataSource">
                 <Set name="driverClass">com.mysql.jdbc.Driver</Set>
